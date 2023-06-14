@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;900&display=swap');
+
+:root{
+    --font-padrao: 'Hanken Grotesk', Arial, Verdana, Helvetica, sans-serif;
+
+    --cor01: hsl(252, 100%, 67%);
+    --cor02: hsl(241, 81%, 54%);
+    --cor03: hsl(221, 100%, 96%);
+    --cor04: hsla(256, 72%, 46%, 1);
+    --cor05: hsla(241, 72%, 46%, 0);
+    --azul: #322bea;
+    --roxo: hsl(251, 100%, 63%);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+section{
+    background-image: linear-gradient(to top, #322bea, #6743ff);
+    width: 100vw;
+    height: 355px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+section > h1{
+    font-family: var(--font-padrao);
+    text-align: center;
+    padding-top: 30px;
+    color: hsla(222, 100%, 96%, 0.6);
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+section > aside{
+    background-image: linear-gradient(to bottom, #322bea, #6743ff);
+    height: 142px;
+    width: 136px;
+    margin: auto;
+    border-radius: 100px;
+}
+
+section > aside > h1{
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    font-family: var(--font-padrao);
+    font-size: 3.6em;
+}
+
+section > aside > h2{
+    text-align: center;
+    color: hsla(222, 100%, 96%, 0.6);
+    font-family: var(--font-padrao);
+    font-size: 1em;
+}
+
+section > h2{
+    font-family: var(--font-padrao);
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-size: 28px;
+}
+
+section > p{
+    font-family: var(--font-padrao);
+    text-align: center;
+    padding-top: 15px;
+    color: hsla(222, 100%, 96%, 0.6);
+    font-size: 18px;
+}
