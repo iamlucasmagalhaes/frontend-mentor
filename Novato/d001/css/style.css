@@ -99,7 +99,7 @@ article#summary > div.vermelho {
     margin-top: 20px;
 }
 
-article#summary > div.vermelho> img{
+article#summary > div.vermelho > img{
     display: block;
     padding-left: 20px;
     height: 45px;
@@ -118,3 +118,118 @@ article#summary > div.vermelho > p {
     padding-right: 40px;
     font-weight: bolder;
 }
+
+article#summary > div.vermelho > p > span{
+   color: hsla(224, 30%, 27%, 0.514);
+}
+
+article#summary > div.amarelo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #faeed8;
+    width: 90vw;
+    height: 56px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+article#summary > div.amarelo > img{
+    display: block;
+    padding-left: 20px;
+    height: 45px;
+    width: 45px;
+}
+
+article#summary > div.amarelo > h2 {
+    display: block;
+    color: #f0bb50;
+    font-size: 18px;
+    padding-right: 200px;
+}
+
+article#summary > div.amarelo > p {
+    display: block;
+    padding-right: 40px;
+    font-weight: bolder;
+}
+
+article#summary > div.amarelo > p > span{
+    color: hsla(224, 30%, 27%, 0.514);
+ }
+
+article#summary > div.verde {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #f2fafa;
+    width: 90vw;
+    height: 56px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+article#summary > div.verde > img{
+    display: block;
+    padding-left: 20px;
+    height: 45px;
+    width: 45px;
+}
+
+article#summary > div.verde > h2 {
+    display: block;
+    color: #23a786;
+    font-size: 18px;
+    padding-right: 200px;
+}
+
+article#summary > div.verde > p {
+    display: block;
+    padding-right: 40px;
+    font-weight: bolder;
+}
+
+article#summary > div.verde > p > span{
+    color: hsla(224, 30%, 27%, 0.514);
+ }
+
+article#summary > div.azul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: hsl(230, 56%, 94%);
+    width: 90vw;
+    height: 56px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+article#summary > div.azul > img{
+    display: block;
+    padding-left: 20px;
+    height: 45px;
+    width: 45px;
+}
+
+article#summary > div.azul > h2 {
+    display: block;
+    color: #243089;
+    font-size: 18px;
+    padding-right: 200px;
+}
+
+article#summary > div.azul > p {
+    display: block;
+    padding-right: 40px;
+    font-weight: bolder;
+}
+
+article#summary > div.azul > p > span{
+    color: hsla(224, 30%, 27%, 0.514);
+ }
