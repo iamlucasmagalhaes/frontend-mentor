@@ -34,19 +34,28 @@
     }
 
     article#summary > div.vermelho{
-        width: 50vw;
+        width: 45vw;
+    }
+
+    article#summary > div.vermelho > h2{
+        padding-left: 10px;
+        padding-right: 150px;
+    }
+
+    article#summary > div.vermelho > p{ 
+        padding-right: 10px;
     }
 
     article#summary > div.amarelo{
-        width: 50vw;
+        width: 45vw;
     }
 
     article#summary > div.verde{
-        width: 50vw;
+        width: 45vw;
     }
 
     article#summary > div.azul{
-        width: 50vw;
+        width: 45vw;
     }
 
     div#botao{
