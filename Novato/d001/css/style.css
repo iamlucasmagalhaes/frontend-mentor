@@ -27,7 +27,7 @@ html, body {
 section {
     display: block;
     background-image: linear-gradient(to top, #322bea, #6743ff);
-    width: 96vw;
+    width: 97vw;
     height: 355px;
     border-radius: 0px 0px 30px 30px;
 }
