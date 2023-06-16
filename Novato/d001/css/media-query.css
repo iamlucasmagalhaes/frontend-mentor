@@ -8,14 +8,14 @@
         justify-content: center;
         align-items: center;
 
-        height: 70vh;
-        width: 70vw;
+        height: 60vh;
+        width: 60vw;
     }
 
     section{
         float: left;
-        width: 30%;
-        height: 80%;
+        width: 40vw;
+        height: 55vh;
         border-radius: 20px;
     }
 
