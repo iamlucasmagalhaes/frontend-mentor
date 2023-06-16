@@ -8,7 +8,7 @@
         justify-content: center;
         align-items: center;
 
-        height: 60vh;
+        height: 100vh;
         width: 60vw;
     }
 
@@ -19,10 +19,18 @@
         border-radius: 20px;
     }
 
+    section > p{
+        padding: 10px;
+    }
+
     article#summary{
         float: right;
         width: 10vw;
         padding-left: 20px;
+    }
+
+    article#summary > h1{
+        padding-left: 0px;
     }
 
     article#summary > div.vermelho{
