@@ -50,12 +50,39 @@
         width: 45vw;
     }
 
+    article#summary > div.amarelo > h2{
+        padding-left: 10px;
+        padding-right: 150px;
+    }
+
+    article#summary > div.amarelo > p{ 
+        padding-right: 10px;
+    }
+
     article#summary > div.verde{
         width: 45vw;
     }
 
+    article#summary > div.verde > h2{
+        padding-left: 10px;
+        padding-right: 150px;
+    }
+
+    article#summary > div.verde > p{ 
+        padding-right: 10px;
+    }
+
     article#summary > div.azul{
         width: 45vw;
+    }
+
+    article#summary > div.azul > h2{
+        padding-left: 10px;
+        padding-right: 150px;
+    }
+
+    article#summary > div.azul > p{ 
+        padding-right: 10px;
     }
 
     div#botao{
