@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    div#summary-component{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        height: 70vh;
+        width: 70vw;
+    }
+
+    section{
+        float: left;
+        width: 30%;
+        height: 80%;
+        border-radius: 20px;
+    }
+
+    article#summary{
+        float: right;
+        width: 10vw;
+        padding-left: 20px;
+    }
+
+    article#summary > div.vermelho{
+        width: 50vw;
+    }
+
+    article#summary > div.amarelo{
+        width: 50vw;
+    }
+
+    article#summary > div.verde{
+        width: 50vw;
+    }
+
+    article#summary > div.azul{
+        width: 50vw;
+    }
+
+    div#botao{
+        display: none;
+    }
+}

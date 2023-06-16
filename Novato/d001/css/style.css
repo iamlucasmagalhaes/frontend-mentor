@@ -25,6 +25,7 @@ html, body {
 }
 
 section {
+    display: block;
     background-image: linear-gradient(to top, #322bea, #6743ff);
     width: 97vw;
     height: 355px;
@@ -165,7 +166,7 @@ article#summary > div.verde {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    background-color: #f2fafa;
+    background-color: #d5f7f7;
     width: 90vw;
     height: 56px;
     margin: auto;
