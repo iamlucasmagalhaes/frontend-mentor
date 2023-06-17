@@ -11,7 +11,7 @@
 
         transform: translate(-50%, -50%);
 
-        box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.37);
+        box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.137);
         border-radius: 20px;
     }
 
@@ -60,7 +60,7 @@
     }
 
     article#summary > div.vermelho{
-        width: 350px;
+        width: 332px;
         height: 54px;
     }
 
@@ -74,45 +74,45 @@
     }
 
     article#summary > div.amarelo{
-        width: 350px;
+        width: 332px;
         height: 54px;
     }
 
     article#summary > div.amarelo > h2{
-        padding-left: 10px;
-        padding-right: 150px;
+        padding-right: 149px;
     }
 
     article#summary > div.amarelo > p{ 
         padding-right: 10px;
+        font-size: 14px;
     }
 
     article#summary > div.verde{
-        width: 350px;
+        width: 332px;
         height: 54px;
     }
 
     article#summary > div.verde > h2{
-        padding-left: 10px;
-        padding-right: 150px;
+        padding-right: 149px;
     }
 
     article#summary > div.verde > p{ 
         padding-right: 10px;
+        font-size: 14px;
     }
 
     article#summary > div.azul{
-        width: 350px;
+        width: 332px;
         height: 54px;
     }
 
     article#summary > div.azul > h2{
-        padding-left: 10px;
-        padding-right: 150px;
+        padding-right: 149px;
     }
 
     article#summary > div.azul > p{ 
         padding-right: 10px;
+        font-size: 14px;
     }
 
     div#botao{
