@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px){
 
     div#summary-component{
         display: flex;
@@ -8,17 +8,36 @@
         justify-content: center;
         align-items: center;
 
-        height: 100vh;
-        width: 60vw;
+        height: 515px;
+        width: 742px;
         margin-left: 80px;
+        margin-top: 80px;
 
     }
 
     section{
         float: left;
-        width: 50vw;
-        height: 60vh;
+        width: 371px;
+        height: 515px;
         border-radius: 20px;
+    }
+
+    section > h1{
+        margin-top: 10px;
+    }
+
+    section > aside{
+        height: 195px;
+        width: 201px;
+        margin-top: 40px;
+    }
+
+    section > aside > h1{
+        font-size: 80px;
+    }
+
+    section > aside > h2{
+        font-size: 20px;
     }
 
     section > p{
@@ -27,30 +46,34 @@
 
     article#summary{
         float: right;
-        width: 5vw;     padding-left: 20px;
+        height: 515px;
+        width: 371px;     
+        padding-left: 20px;
         padding-bottom:40px;
         margin-bottom: 50px;
     }
 
     article#summary > h1{
-        padding-left: 0px;
+        padding-left: 30px;
     }
 
     article#summary > div.vermelho{
-        width: 45vw;
+        width: 350px;
+        height: 54px;
     }
 
     article#summary > div.vermelho > h2{
-        padding-left: 10px;
-        padding-right: 150px;
+        padding-right: 149px;
     }
 
     article#summary > div.vermelho > p{ 
         padding-right: 10px;
+        font-size: 14px;
     }
 
     article#summary > div.amarelo{
-        width: 45vw;
+        width: 350px;
+        height: 54px;
     }
 
     article#summary > div.amarelo > h2{
@@ -63,7 +86,8 @@
     }
 
     article#summary > div.verde{
-        width: 45vw;
+        width: 350px;
+        height: 54px;
     }
 
     article#summary > div.verde > h2{
@@ -76,7 +100,8 @@
     }
 
     article#summary > div.azul{
-        width: 45vw;
+        width: 350px;
+        height: 54px;
     }
 
     article#summary > div.azul > h2{
@@ -89,6 +114,7 @@
     }
 
     div#botao{
+        display: none;
         width: 30vw;
         margin-top: 40px;
         margin-bottom: -334px;
