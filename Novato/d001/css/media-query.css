@@ -3,12 +3,16 @@
 @media screen and (min-width: 768px){
 
     div#summary-component{
-        position: relative;
+        position: absolute;
         height: 515px;
         width: 742px;
-        margin-left: 80px;
-        margin-top: 80px;
+        top: 50%;
+        left: 50%;
 
+        transform: translate(-50%, -50%);
+
+        box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.37);
+        border-radius: 20px;
     }
 
     section{
@@ -16,6 +20,8 @@
         width: 371px;
         height: 515px;
         border-radius: 20px;
+        transition: width 0.3s, height 0.3s;
+        transition-timing-function: ease;
     }
 
     section > h1{
