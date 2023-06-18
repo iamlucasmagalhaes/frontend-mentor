@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@300&display=swap');
+
+
+:root{
+    --font-titulo: 'Fraunces', serif;
+    --font-texto: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    width: 100vw;
+}
+
+aside > img{
+    width: 80%;
+    height: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+article{
+    background-color: white;
+    width: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+article > p{
+    font-family: var(--font-texto);
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: lighter;
+}
+
+article >  h1{
+    font-family: var(--font-titulo);
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+article > p#sobre{
+    font-family: var(--font-texto);
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.7em;
+    padding-right: 20px;
+    font-weight: normal;
+}
+
+article > p#preco{
+    font-family: var(--font-titulo);
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+article > p#preco > s{
+    position: absolute;
+    font-family: var(--font-texto);
+    font-size: 14px;
+    color: black;
+    padding-left: 15px;
+    top: 568px;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    width: 90%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+button > p{
+    color: white;
+    font-family: var(--font-texto);
+    font-weight: bolder;
+}
