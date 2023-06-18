@@ -89,8 +89,14 @@ button{
     border-radius: 10px;
 }
 
+button > img{
+    float: left;
+    padding-left: 120px;
+}
+
 button > p{
     color: white;
     font-family: var(--font-texto);
     font-weight: bolder;
+    padding-right: 110px;
 }
