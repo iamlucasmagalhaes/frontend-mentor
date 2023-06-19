@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+
+    main{
+        height: 448px;
+        width: 658px;
+        margin: auto;
+    }
+
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        margin-right: 0px;
+    }
+
+    picture > img{
+        float: left;
+        width: 301px;
+        height: 448px;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    article{
+        float: right;
+        width: 304px;
+        height: 448px;
+        margin-left: -50px;
+        margin-right: 0px;
+        margin-top: 30px;
+        border-radius: 0px;
+        border-radius: 0px 20px 20px;
+    }
+
+    article > p{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    article > h1{
+        text-align: left;
+        padding: 20px;
+        font-size: 35px;
+        padding-bottom: 5px;
+    }
+
+    article > p#sobre{
+        font-size: 14px;
+        padding-top: 10px;
+        margin-top: 0px;
+        text-align: justify;
+    }
+
+    article > p#preco > s{
+        top: 371px;
+        left: 740px;
+    }
+
+    button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    button > img{
+        padding: 10px;
+        padding-top: 16px;
+    }
+
+    button > p{
+        padding: 10px;
+        padding-top: 16px;
+        padding-left: 0px;
+    }
+
+}
