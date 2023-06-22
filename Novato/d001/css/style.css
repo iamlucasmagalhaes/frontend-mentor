@@ -20,14 +20,14 @@
 html, body {
     background-color: white;
     height: 100vh;
-    width: 97vw;
+    width: 100vw;
     font-family: var(--font-padrao);
 }
 
 section {
     display: block;
     background-image: linear-gradient(to top, #322bea, #6743ff);
-    width: 484px;
+    width: 100vw;
     height: 355px;
     border-radius: 0px 0px 30px 30px;
 }
